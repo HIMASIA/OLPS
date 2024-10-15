@@ -306,16 +306,16 @@ a:focus {
 .slider_section .detail-box .btn-box .btn1 {
   display: inline-block;
   padding: 10px 15px;
-  background-color: #00bbf0;
+  background-color: #0D92F4;
   color: #ffffff;
-  border-radius: 0;
+  border-radius: 5px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: none;
 }
 
 .slider_section .detail-box .btn-box .btn1:hover {
-  background-color: #007fa4;
+  background-color: #77CDFF;
 }
 
 .slider_section .detail-box .btn-box .btn2 {
@@ -338,6 +338,7 @@ a:focus {
 }
 
 .slider_section .img-box img {
+  align-items: center;
   width: 100%;
   -webkit-animation: upDown 5s infinite;
           animation: upDown 5s infinite;
