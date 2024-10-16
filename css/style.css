@@ -50,11 +50,12 @@ body {
 }
 
 .heading_container h2 span {
-  color: #00bbf0;
+  color: #2765b6;
 }
 
 .heading_container p {
-  margin-top: 10px;
+  font-size: large;
+  margin-top: 20px;
   margin-bottom: 0;
 }
 
@@ -470,7 +471,7 @@ a:focus {
 .service_section .btn-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #00bbf0;
+  background-color: #002759;
   color: #ffffff;
   border-radius: 0;
   -webkit-transition: all 0.3s;
@@ -483,7 +484,7 @@ a:focus {
 }
 
 .about_section {
-  background-color: #00204a;
+  background-color: #660909;
   color: #ffffff;
 }
 
@@ -492,6 +493,12 @@ a:focus {
 }
 
 .about_section .row {
+  box-sizing: border-box;
+  padding: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  background-color: #fff;
+  border-radius: 20px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -499,7 +506,10 @@ a:focus {
 
 
 .about_section .img-box img {
-
+  box-sizing: border-box;
+  padding: 35px;
+  border-radius: 30px;
+  background-color: #fff;
   max-width: 100%;
 }
 
@@ -526,7 +536,7 @@ a:focus {
   padding: 10px 45px;
   background-color: #0c1561;
   color: #ffffff;
-  border-radius: 0px;
+  border-radius: 20px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: none; 
