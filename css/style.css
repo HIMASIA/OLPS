@@ -307,8 +307,9 @@ a:focus {
 .slider_section .detail-box .btn-box .btn1 {
   display: inline-block;
   padding: 10px 15px;
-  background-color: #0D92F4;
-  color: #ffffff;
+  background-color: #fff;
+  color: #880A0A;
+  font-weight: bold;
   border-radius: 5px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -316,7 +317,8 @@ a:focus {
 }
 
 .slider_section .detail-box .btn-box .btn1:hover {
-  background-color: #850d0d;
+  background-color: #090B3E;
+  color: #ffffff;
 }
 
 .slider_section .detail-box .btn-box .btn2 {
@@ -485,7 +487,7 @@ a:focus {
 }
 
 .about_section {
-  background-color: #660909;
+  background-color: #880A0A;
   color: #ffffff;
 }
 
@@ -524,19 +526,20 @@ a:focus {
 
 .about_section .detail-box h3 {
   font-weight: bold;
-  color: #850d0d;
+  color: #090B3E;
 }
 
 .about_section .detail-box p {
   margin-top: 15px;
-  color: #850d0d;
+  color: #090B3E;
 }
 
 .about_section .detail-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #0c1561;
+  background-color: #880A0A;
   color: #ffffff;
+  font-weight: bold;
   border-radius: 5px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -545,7 +548,7 @@ a:focus {
 }
 
 .about_section .detail-box a:hover {
-  background-color: #850d0d;
+  background-color: #090B3E;
 }
 
 .why_section .box {
