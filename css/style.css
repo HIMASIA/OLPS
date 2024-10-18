@@ -85,6 +85,9 @@ a:focus {
 }
 
 /*header section*/
+#nav {
+    background-color: #880A0A;
+}
 .hero_area {
   position: relative;
   min-height: 100vh;
