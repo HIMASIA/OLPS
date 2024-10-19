@@ -465,28 +465,25 @@ a:focus {
 }
 
 .service_section .btn-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin-top: 45px;
 }
 
 .service_section .btn-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #002759;
+  background-color: #880A0A;
   color: #ffffff;
-  border-radius: 0;
+  font-weight: bold;
+  border-radius: 10px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: none;
 }
 
 .service_section .btn-box a:hover {
-  background-color: #007fa4;
+  background-color: #090B3E;
 }
 
 .about_section {
