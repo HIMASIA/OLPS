@@ -28,3 +28,6 @@ function createCard(member) {
 anggota.forEach((member) => {
   teamContainer.innerHTML += createCard(member);
 });
+
+
+
